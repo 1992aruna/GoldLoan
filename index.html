@@ -17,13 +17,18 @@
                 <div class="welcome-card">
                     <h2>welcome back!</h2>
                     <form action="#">
-                        <input type="text" placeholder="User Name">
-                        <input type="text" placeholder="Password">
+                        <div class="input">
+                            <input type="text" placeholder="User Name">
+                        </div>
+                        <div class="input">
+                          <input type="text" placeholder="Password">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
                             <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
                             <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
                           </svg>
-                          <p>Forgot Password?</p                   <button class="login-btn">Login</button>
+                        </div>
+                          <p>Forgot Password?</p>                  
+                        <button class="login-btn">Login</button>
                     </form>
                 </div>
             </div>
@@ -38,14 +43,18 @@
                     <h2>Forgot Password?</h2>
                     <p>No Worries, we'll send you Reset Instructions.</p>
                     <form action="#">
+                      <div class="input">
                         <input type="text" placeholder="User Name">
+                      </div>
+                      <div class="input">
                         <input type="text" placeholder="Email">
-                        <div class="back">
+                      </div>
+                      <div class="back">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
-                          </svg>
+                        </svg>
                           <p>Back to Login</p>
-                        </div>
+                      </div>
                         <button class="login-btn">Reset Password</button>
                     </form>
                 </div>
